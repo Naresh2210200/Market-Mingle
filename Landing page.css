@@ -1,0 +1,239 @@
+.card p,
+.reg,
+.tile h1 {
+    color: #000;
+}
+
+.hero,
+.hero1,
+.hero2 {
+    box-sizing: border-box;
+}
+
+.cat,
+.container,
+.tile {
+    text-align: center;
+}
+
+.new-card .content,
+.new-card .front-content,
+.new-card .front-content p {
+    transition: 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.new-card .content .heading,
+.new-card .front-content p {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+body {
+    border-color: #17d1d1;
+    position: relative;
+}
+
+.emote,
+nav {
+    position: absolute;
+}
+
+a {
+    text-decoration: none;
+}
+
+.hero {
+    padding: 11%;
+    margin: 0 auto;
+    background: linear-gradient(to right,  #6dffdf, #43f9ff);
+}
+
+nav {
+    top: 20px;
+    right: 10px;
+}
+
+.logo {
+    width: 300px;
+}
+
+.emote {
+    top: 110px;
+    right: 120px;
+    width: 400px;
+}
+
+.tile {
+    margin-top: 10%;
+    margin-right: 50%;
+    max-width: 700px;
+}
+
+.tile h1 {
+    font-size: 70px;
+    margin: 5% 0;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.card h2,
+.card p {
+    margin: 10px;
+}
+
+.button-container {
+    margin-top: 20px;
+}
+
+.reg {
+    margin: 10px 15px;
+    padding: 1.3em 3em;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0;
+    font-weight: 900;
+    background-color: #fff;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+    cursor: pointer;
+    outline: 0;
+}
+
+.reg:hover {
+    background-color: #00ff40;
+    box-shadow: 0 15px 20px rgba(46, 229, 157, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+}
+
+.reg:active {
+    transform: translateY(-1px);
+}
+
+.hero1 {
+  padding: 8%;
+  margin: 0 auto;
+  background: linear-gradient(to left, #6dffdf, #43f9ff);
+}
+
+.cat {
+    margin: 3%;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 5% auto;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.card {
+    background: linear-gradient(145deg, #cacaca, #f0f0f0);
+    border-radius: 75px;
+    overflow: hidden;
+    width: 350px;
+}
+
+.card:hover {
+    box-shadow: 34px 34px 40px #5a5a5a, -34px -34px 40px #fff;
+}
+
+.card img,
+.front-content img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+@media (max-width: 768px) {
+    .card-container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/* Styles for founder section */
+.hero2 {
+    padding: 2%;
+    margin: 0% auto;
+    background: linear-gradient(to right, #6dffdf, #43f9ff);
+}
+
+.founder-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 8% auto;
+    max-width: 1000px;
+    padding: 50px;
+}
+
+.new-card-container {
+    width: 400px;
+    height: 400px;
+    position: relative;
+    border-radius: 50%;
+    background: linear-gradient(145deg, #cacaca, #f0f0f0);
+    box-shadow: 9px 9px 17px #7d7d7d, -9px -9px 17px #ffffff;
+    overflow: hidden;
+}
+
+.new-card-container2 {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 2100px;
+    right: 10%;
+    border-radius: 50%;
+    background: linear-gradient(145deg, #cacaca, #f0f0f0);
+    box-shadow: 9px 9px 17px #7d7d7d, -9px -9px 17px #ffffff;
+    overflow: hidden;
+}
+
+.new-card .front-content {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.jain {
+    position: absolute;
+    right: 35%;
+    top: 1720px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Styles for paragraph */
+.page {
+    max-width: 50%;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-left: auto; /* Aligns the paragraph to the right */
+}
+
+.singh {
+    position:absolute;
+    right:72%;
+    top: 85%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Styles for paragraph */
+.page2 {
+    max-width: 50%;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-right: auto; /* Aligns the paragraph to the right */
+}
